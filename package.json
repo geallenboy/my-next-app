@@ -12,9 +12,23 @@
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
 	},
 	"dependencies": {
+		"@ai-sdk/anthropic": "^1.1.9",
+		"@ai-sdk/deepseek": "^0.1.11",
+		"@ai-sdk/google": "^1.1.16",
+		"@ai-sdk/openai": "^1.1.13",
+		"@ai-sdk/react": "^1.1.17",
+		"@radix-ui/react-slot": "^1.1.2",
+		"ai": "^4.1.45",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"lucide-react": "^0.475.0",
+		"marked": "^15.0.7",
 		"next": "14.2.24",
 		"react": "^18",
-		"react-dom": "^18"
+		"react-dom": "^18",
+		"react-markdown": "^10.0.0",
+		"tailwind-merge": "^3.0.1",
+		"tailwindcss-animate": "^1.0.7"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250214.0",
